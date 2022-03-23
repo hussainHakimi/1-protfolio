@@ -1,6 +1,7 @@
 
             body{
-                margin: 0;
+                max-width: 920px;
+                margin: auto;
                 padding: 0;
                 font-family: sans-serif;
             }
@@ -61,7 +62,7 @@
 
 
             /*================================== MAMINNG RESPONSIVE============================*/
-            @media(max-width:330px){
+            @media(max-width:340px){
                 .header{
                     height: 70px;
                 }
@@ -83,5 +84,21 @@
                 nav li{
                     margin-left: 0;
                     margin-bottom: 10px;
+                }
+            }
+
+            @media(min-width:350px) and (max-width:700px){
+                .header{
+                    height: 70px;
+                }
+                nav{
+                    height: 100%;
+                    text-align: center;
+                }
+                nav ul{
+                    margin-top: 20px;
+                }
+                nav li{
+                    margin-left: 20px;
                 }
             }
