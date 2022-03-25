@@ -150,6 +150,50 @@
             }
             
 
+            /*=================================About Part=====================================*/
+            .about{
+                width: 100%;
+                height: 340px;
+                background: #160e2b;
+                margin-top: 100px;
+            }
+            .about_txt{
+                width: 50%;
+                float: left;
+                height: 100%;
+                color: #fff;
+            }
+            .about_txt h1{
+                margin-top: 5px;
+            }
+            .about_txt p{
+                font-size: .9rem;
+                margin: 7px 0;
+            }
+            .about_txt a{
+                text-decoration: none;
+                font-size: 1.2rem;
+                font-weight: bold;
+                color: #7543ff;
+            }
+            .about_img{
+                width: 50%;
+                height: 100%;
+                float: right;
+            }
+            .about_img img{
+                float: right;
+                width: 290px;
+                height: 290px;
+            }
+            .about_txt span{
+                width: 150px;
+                height: 20px;
+                display: block;
+                background: #7543ff;
+                margin-top: 70px;
+            }
+
 
 
 
@@ -234,6 +278,28 @@
                 }
                 .features li{
                     width: 50%;
+                }
+                /* about part */
+                .about{
+                    height: 540px;
+                }
+                .about_txt{
+                    width: 100%;
+                    height: 240px;
+                    text-align: center;
+
+                }
+                .about_txt span{
+                    margin: 20px 0px 10px 80px;
+                }
+                .about_img{
+                    width: 100%;
+                    height: 250px;
+                }
+                .about_img img{
+                    width: 80%;
+                    height: 100%;
+                    margin-left: 10px;
                 }
                 
             }
